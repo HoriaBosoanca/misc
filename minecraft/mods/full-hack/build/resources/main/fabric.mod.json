@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "myhack",
+	"version": "1.0.0",
+	"name": "My Hack",
+	"description": "What are you doing looking here?",
+	"authors": [
+		"AMOUGUS"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/myHack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ExampleMod"
+		],
+		"client": [
+			"com.example.MyHack",
+			"com.example.Killaura"
+		]
+	},
+	"mixins": [
+		"myHack.mixins.json",
+		{
+			"config": "myHack.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

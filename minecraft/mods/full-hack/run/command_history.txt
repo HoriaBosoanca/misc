@@ -1,0 +1,50 @@
+/give @s minecraft:beef 64
+/give @s minecraft:cooked_beef 64
+/give @s dirt 1000
+/give @s minecraft:enderman_spawn_egg 64
+/give @s minecraft:acacia_slab
+/give @s minecraft:netherite_sword
+/time set day
+/give @s minecraft:netherite_sword
+/gamemode creative
+/gamemode survival
+/give @s minecraft:cooked_beef 64
+/time set day
+/weather clear
+/summon minecraft:pig
+/give @s minecraft:acacia_trapdoor
+/give @s minecraft:acacia_trapdoor 64
+/give @s minecraft:diamond_axe
+/summon minecraft:pig
+/summon minecraft:villager
+/effect clear
+/give @s minecraft:dirt 1000
+/give @s minecraft:acacia_slab
+/kill @s
+/time set day
+/gamerule doDaylightCycle
+/gamerule doDaylightCycle false
+/give @s minecraft:cooked_beef 64
+/gamemode creative
+/gamemode survival
+/register haha haha
+/login haha
+/register haha haha
+/register hahahaha hahahaha
+/login hahahaha
+/register haohaohao
+/register haohaohao haohaohao
+/gamemode creative
+/gamemode survival
+/give @s minecraft:cooked_beef 64
+/give @s minecraft:villager_spawn_egg 64
+/give @s minecraft:spruce_wood 64
+/time set day
+/give @s minecraft:villager_spawn_egg 64
+/give @s minecraft:cooked_beef 64
+/time set day
+/login haohaohao
+/register haohaohao haohaohao
+/give @s minecraft:cooked_beef 64
+/register haohaohao haohaoaho
+/register haohaohao haohaohao
