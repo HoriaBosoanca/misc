@@ -11,7 +11,7 @@ public class ExampleModClient implements ClientModInitializer {
 	private static final KeyMapping fly_key = KeyBindingHelper.registerKeyBinding(new KeyMapping(
 			"key.exampleMod.fly",
 			GLFW.GLFW_KEY_C,
-			KeyMapping.Category.MOVEMENT
+			KeyMapping.CATEGORY_MOVEMENT
 	));
 	@Override
 	public void onInitializeClient() {
